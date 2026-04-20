@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker",
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "mechatroner.rainbow-csv",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens",
+    "gruntfuggly.todo-tree",
+    "usernamehw.errorlens",
+    "github.copilot",
+    "github.copilot-chat"
+  ]
+}

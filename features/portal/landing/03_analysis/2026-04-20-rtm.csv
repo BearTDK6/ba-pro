@@ -1,0 +1,12 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,User input,US-01,AC-01,UAT-01,Draft,Landing must explain core service benefits
+BR-02,User input,US-01,AC-02; AC-06,UAT-02; UAT-06,Draft,Preparation guidance must align with approved dossier requirements
+BR-03,User input,US-01,AC-03,UAT-03,Draft,New-user path to registration is mandatory
+BR-04,User input,US-02,AC-04,UAT-04,Draft,Returning-user path to login is mandatory
+FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Headline and supporting content communicate benefits
+FR-02,Derived from BR-02,US-01,AC-02; AC-06,UAT-02; UAT-06,Draft,Guidance helps users prepare the application dossier
+FR-03,Derived from BR-03,US-01,AC-03,UAT-03,Draft,Sign up CTA routes to registration
+FR-04,Derived from BR-04,US-02,AC-04,UAT-04,Draft,Log in CTA routes to login
+FR-05,Derived from UX intent,US-01; US-02,AC-05,UAT-05,Draft,Information must not block CTA access
+RULE-01,User input,US-01; US-02,AC-03; AC-04,UAT-03; UAT-04,Draft,Both CTAs are mandatory
+RULE-02,BA assumption,US-01,AC-06,UAT-06,Draft,Preparation content must match downstream dossier requirements

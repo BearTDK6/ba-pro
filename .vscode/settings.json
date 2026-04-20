@@ -1,0 +1,38 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "explorer.compactFolders": false,
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+    100
+  ],
+  "files.insertFinalNewline": true,
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": false
+  },
+  "markdown.preview.breaks": true,
+  "markdown.copyFiles.destination": {
+    "**/*.md": "08_Assets/${documentBaseName}/"
+  },
+  "cSpell.enabledLanguageIds": [
+    "markdown",
+    "plaintext",
+    "yaml",
+    "csv"
+  ],
+  "cSpell.words": [
+    "airdata",
+    "backlog",
+    "brd",
+    "mermaid",
+    "raid",
+    "uat"
+  ]
+}

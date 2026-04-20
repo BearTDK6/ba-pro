@@ -1,0 +1,35 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true
+    },
+    "explorer.compactFolders": false,
+    "editor.wordWrap": "on",
+    "editor.rulers": [100],
+    "[markdown]": {
+      "editor.quickSuggestions": false,
+      "editor.wordWrap": "bounded",
+      "files.trimTrailingWhitespace": false
+    },
+    "markdown.preview.breaks": true,
+    "workbench.editor.labelFormat": "medium"
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one",
+      "streetsidesoftware.code-spell-checker",
+      "shd101wyy.markdown-preview-enhanced",
+      "bierner.markdown-mermaid",
+      "mechatroner.rainbow-csv",
+      "redhat.vscode-yaml",
+      "eamodio.gitlens",
+      "gruntfuggly.todo-tree",
+      "usernamehw.errorlens",
+      "github.copilot",
+      "github.copilot-chat"
+    ]
+  }
+}
