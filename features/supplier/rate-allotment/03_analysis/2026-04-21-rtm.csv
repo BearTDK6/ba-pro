@@ -1,0 +1,18 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-01; AC-03,UAT-01; UAT-03,Draft,Rate tối thiểu
+BR-02,BRD,US-01,AC-02,UAT-02,Draft,Cancellation policy
+BR-03,BRD,US-02,AC-04; AC-05,UAT-04; UAT-05,Draft,Allotment và booking mode
+BR-04,BRD,US-02,AC-06,UAT-06,Draft,Optional sections
+FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Rate fields
+FR-02,Derived from BR-04,US-02,AC-06,UAT-06,Draft,Skip season
+FR-03,Derived from BR-02,US-01,AC-02,UAT-02,Draft,Multi-condition cancellation
+FR-04,Derived from RULE-02,US-01,AC-02,UAT-02,Draft,Cancellation validation
+FR-05,Derived from BR-04,US-02,AC-06,UAT-06,Draft,Surcharge optional
+FR-06,Derived from BR-04,US-02,AC-06,UAT-06,Draft,Promotion optional
+FR-07,Derived from BR-03,US-02,AC-05,UAT-05,Draft,Allotment setup
+FR-08,Derived from RULE-03 and RULE-04,US-02,AC-04; AC-05,UAT-04; UAT-05,Draft,Booking mode
+FR-09,Derived from RULE-01,US-01,AC-03,UAT-03,Draft,Step completion
+RULE-01,BRD,US-01,AC-03,UAT-03,Draft,At least one valid rate
+RULE-02,BRD,US-01,AC-02,UAT-02,Draft,No overlap cancellation
+RULE-03,BRD,US-02,AC-04,UAT-04,Draft,No allotment => On Request
+RULE-04,BRD,US-02,AC-05,UAT-05,Draft,With allotment => Instant Confirm

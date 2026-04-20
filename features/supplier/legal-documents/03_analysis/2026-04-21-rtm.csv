@@ -1,0 +1,14 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-01,UAT-01,Draft,Upload legal docs
+BR-02,BRD,US-02,AC-02,UAT-02,Draft,Review summary
+BR-03,BRD,US-03,AC-02; AC-03,UAT-02; UAT-03,Draft,Request active condition
+BR-04,BRD,US-03,AC-03; AC-04,UAT-03; UAT-04,Draft,Pending Review và success message
+FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Multi-format upload
+FR-02,Derived from UX needs,US-01,AC-01,UAT-01,Draft,Upload guidance
+FR-03,Derived from BR-02,US-02,AC-02,UAT-02,Draft,Review summary checklist
+FR-04,Derived from BR-03,US-03,AC-02; AC-03,UAT-02; UAT-03,Draft,Request active gate
+FR-05,Derived from BR-04,US-03,AC-03; AC-04,UAT-03; UAT-04,Draft,Status transition
+FR-06,Derived from BRD content,US-01,AC-01,UAT-01,Draft,Hướng dẫn upload theo ngữ cảnh
+RULE-01,BRD,US-03,AC-03,UAT-03,Draft,At least one valid document
+RULE-02,BRD,US-03,AC-02; AC-03,UAT-02; UAT-03,Draft,All minimum conditions
+RULE-03,BRD,US-03,AC-03; AC-04,UAT-03; UAT-04,Draft,Pending Review

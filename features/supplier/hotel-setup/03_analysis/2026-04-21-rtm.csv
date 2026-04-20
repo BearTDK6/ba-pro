@@ -1,0 +1,19 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-02,UAT-02,Draft,Khởi tạo hồ sơ khách sạn
+BR-02,BRD,US-01,AC-01,UAT-01,Draft,Duplicate check và claim flow
+BR-03,BRD,US-01,AC-02,UAT-02,Draft,Tạo hoặc gắn Hotel ID
+BR-04,BRD,US-02,AC-03; AC-04; AC-05; AC-06,UAT-03; UAT-04; UAT-05,Draft,Dữ liệu tối thiểu cho hotel setup
+FR-01,Derived from BR-01,US-01,AC-02,UAT-02,Draft,Hotel overview
+FR-02,Derived from BR-02,US-01,AC-01,UAT-01,Draft,Duplicate check
+FR-03,Derived from BR-02,US-01,AC-01,UAT-01,Draft,Popup xử lý trùng
+FR-04,Derived from BR-03,US-01,AC-02,UAT-02,Draft,Hotel ID create/link
+FR-05,Derived from BR-04,US-02,AC-03,UAT-03,Draft,Hotel policy
+FR-06,Derived from BR-04,US-02,AC-04,UAT-04,Draft,Facilities tối thiểu
+FR-07,Derived from BR-04,US-02,AC-04,UAT-04,Draft,USP
+FR-08,Derived from BR-04,US-02,AC-05,UAT-05,Draft,Media upload
+FR-09,Derived from UX needs,US-02,AC-05,UAT-05,Draft,Media management
+FR-10,Derived from completion rule,US-02,AC-06,UAT-06,Draft,Step completion
+RULE-01,BRD,US-01,AC-01,UAT-01,Draft,Không tạo trùng hotel
+RULE-02,BRD,US-01,AC-01,UAT-01,Draft,Claim existing hotel
+RULE-03,BRD,US-01,AC-02,UAT-02,Draft,Hotel ID backend rule
+RULE-04,BRD,US-02,AC-06,UAT-06,Draft,Điều kiện hoàn tất step

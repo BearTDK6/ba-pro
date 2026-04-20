@@ -1,20 +1,27 @@
 Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
-BR-01,User input,US-01,AC-01,UAT-01,Draft,Đăng ký supplier mới
-BR-02,User input,US-02,AC-02,UAT-02,Draft,Đăng nhập supplier hiện hữu
-BR-03,User input,US-03,AC-03; AC-07,UAT-03; UAT-04,Draft,Verify supplier và hiển thị trạng thái
-BR-04,User input,US-03,AC-04,UAT-05,Draft,Phân loại supplier
-BR-05,User input,US-04,AC-05; AC-06,UAT-06,Draft,Auto-generate Supplier ID
-FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Tạo account hoặc hồ sơ supplier ban đầu
-FR-02,Derived from BR-02,US-02,AC-02,UAT-02,Draft,Đăng nhập thành công với credential hợp lệ
-FR-03,Derived from BR-03,US-03,AC-03; AC-07,UAT-03; UAT-04,Draft,Trạng thái verify rõ ràng
-FR-04,Derived from BR-03,US-03,AC-03,UAT-03,Draft,Thực hiện verify theo rule
-FR-05,Derived from BR-04,US-03,AC-04,UAT-05,Draft,Gán classification
-FR-06,Derived from BR-05,US-04,AC-05,UAT-06,Draft,Generate Supplier ID duy nhất
-FR-07,Derived from BR-05,US-04,AC-06,UAT-06,Draft,Supplier ID không chỉnh sửa thủ công
-FR-08,Derived from lifecycle needs,US-01; US-03,AC-07,UAT-04,Draft,Thông báo trạng thái rõ ràng
-FR-09,BA proposal,US-01,AC-08,UAT-07,Draft,Kiểm soát duplicate registration nếu rule được xác nhận
-RULE-01,User input,US-01; US-02,AC-01; AC-02,UAT-01; UAT-02,Draft,Hỗ trợ cả Sign up và Log in
-RULE-02,User input,US-04,AC-05; AC-06,UAT-06,Draft,Supplier ID do hệ thống generate
-RULE-03,BA interpretation,US-03,AC-03,UAT-03,Draft,Chỉ verified khi đủ bước bắt buộc
-RULE-04,User input,US-03,AC-04,UAT-05,Draft,Classification theo rule nghiệp vụ
-RULE-05,BA proposal,US-04,AC-06,UAT-06,Draft,Không cho nhập tay Supplier ID khi timing chưa chốt
+BR-01,User input,US-01,AC-01; AC-02; AC-03,UAT-01,Draft,Đăng ký supplier mới và chọn loại supplier
+BR-02,User input,US-02,AC-05; AC-06; AC-07,UAT-03; UAT-04; UAT-05,Draft,Đăng nhập supplier hiện hữu và resume flow
+BR-03,User input,US-03,AC-04; AC-08; AC-12,UAT-02; UAT-06,Draft,Verify supplier và hiển thị trạng thái
+BR-04,User input,US-03,AC-09,UAT-07,Draft,Phân loại supplier
+BR-05,User input,US-04,AC-02; AC-10; AC-11,UAT-01; UAT-08,Draft,Auto-generate Supplier ID
+FR-01,Derived from BR-01,US-01,AC-02,UAT-01,Draft,Chọn loại supplier
+FR-02,Derived from BR-05,US-04,AC-02; AC-10,UAT-01; UAT-08,Draft,Generate Supplier ID ở backend
+FR-03,Derived from BR-01,US-01,AC-01; AC-03,UAT-01,Draft,Form đăng ký supplier
+FR-04,Derived from BR-03,US-01,AC-04,UAT-02,Draft,OTP hoặc verify email và điều khoản
+FR-05,Derived from BR-02,US-02,AC-05,UAT-03,Draft,Đăng nhập bằng email và password
+FR-06,Derived from BRD login support,US-02,AC-06,UAT-04,Draft,Quên mật khẩu
+FR-07,Derived from BRD resume flow,US-02,AC-07,UAT-05,Draft,Resume hồ sơ dở dang
+FR-08,Derived from BR-03,US-03,AC-08; AC-12,UAT-06,Draft,Trạng thái verify rõ ràng
+FR-09,Derived from BR-03,US-03,AC-08,UAT-06,Draft,Thực hiện verify theo rule
+FR-10,Derived from BR-04,US-03,AC-09,UAT-07,Draft,Gán classification
+FR-11,Derived from BR-05,US-04,AC-11,UAT-08,Draft,Supplier ID không chỉnh sửa thủ công
+FR-12,Derived from lifecycle needs,US-01; US-03,AC-12,UAT-06,Draft,Thông báo trạng thái rõ ràng
+FR-13,BA proposal,US-01,AC-13,UAT-09,Draft,Kiểm soát duplicate registration nếu rule được xác nhận
+RULE-01,User input,US-01; US-02,AC-01; AC-05,UAT-01; UAT-03,Draft,Hỗ trợ cả Sign up và Log in
+RULE-02,User input,US-04,AC-02; AC-10; AC-11,UAT-01; UAT-08,Draft,Supplier ID do hệ thống generate
+RULE-03,BA interpretation,US-01; US-03,AC-04; AC-08,UAT-02; UAT-06,Draft,Không cho bỏ qua verify
+RULE-04,User input,US-03,AC-09,UAT-07,Draft,Classification theo rule nghiệp vụ
+RULE-05,BA proposal,US-04,AC-11,UAT-08,Draft,Không cho nhập tay Supplier ID khi timing chưa chốt
+RULE-06,BRD,US-01,AC-03,UAT-02,Draft,Email duy nhất
+RULE-07,BRD,US-01,AC-03,UAT-02,Draft,Số điện thoại hợp lệ
+RULE-08,BRD,US-01,AC-03,UAT-02,Draft,Password đủ mạnh

@@ -24,6 +24,8 @@ The `landing` module introduces the service value proposition, helps users prepa
 | FR-05 | Present benefit and preparation content before or alongside the CTAs in a way that does not block access to the CTAs. | Visitor | Visitor views the landing module | Visitor can access information and CTA paths without unnecessary friction. | Should Have |
 | FR-06 | Make preparation guidance scannable so users can quickly identify the dossier items or information they should prepare. | Visitor | Visitor reviews landing content | Visitor can identify preparation items without reading dense paragraphs. | Should Have |
 | FR-07 | Allow content blocks for benefits and preparation guidance to be maintained without changing the CTA intent. | Content owner or admin process | Content needs revision | Content can be updated while preserving the landing purpose. | Could Have |
+| FR-08 | Display the extranet model, key benefits, estimated completion time, required preparation checklist, and guidance link on the landing module. | Visitor | Visitor opens landing module | Visitor sees the minimum information needed to start onboarding with confidence. | Must Have |
+| FR-09 | Display a short FAQ block and a banner or hero section that make the value proposition easy to scan. | Visitor | Visitor reviews landing module | Visitor can understand the core proposition without reading long paragraphs. | Should Have |
 
 ## Non-Functional Requirements
 
@@ -43,6 +45,7 @@ The `landing` module introduces the service value proposition, helps users prepa
 | RULE-02 | Preparation guidance must align with the actual downstream dossier or document requirements. | Preparation content | BA assumption | Requires validation with business owner |
 | RULE-03 | Content must not imply that users can complete the process without preparing the required dossier if that is not true. | Benefit and preparation content | BA interpretation | Prevent misleading messaging |
 | RULE-04 | If the approved dossier list is not yet finalized, the landing module must use high-level preparation guidance and avoid claiming a final exhaustive checklist. | Preparation content | BA proposal | Prevents inaccurate or misleading guidance before confirmation |
+| RULE-05 | The landing module should not overload the user with excessive information that distracts from the primary CTA path. | Content density | BRD interpretation | Supports clean and focused UX |
 
 ## Candidate User Stories
 
@@ -68,6 +71,8 @@ So that I can quickly access my account.
 | AC-04 | US-02 | Given I open the landing module, when I want to access my existing account, then I can see a `Log in` CTA and use it to go to the login flow. |
 | AC-05 | US-01, US-02 | Given I open the landing module on a supported device size, when I review the page, then benefit content, preparation guidance, and both CTAs are available without confusing or blocking interaction. |
 | AC-06 | US-01 | Given an approved dossier requirement list exists, when I compare it with the landing module preparation guidance, then the guidance matches the approved downstream requirements and does not contradict them. |
+| AC-07 | US-01 | Given I open the landing module, when the content is rendered, then I can see the extranet model, estimated completion time, preparation checklist, and a guidance link. |
+| AC-08 | US-01 | Given I review the landing module, when I scan the page quickly, then a banner or hero section and short FAQ help me understand the onboarding value proposition without excessive distraction. |
 
 ## Dependencies
 
@@ -76,6 +81,8 @@ So that I can quickly access my account.
 - Confirmed application dossier or document preparation list
 - Confirmed approved marketing or business copy
 - Confirmed analytics tracking requirements
+- Confirmed estimated completion time content
+- Confirmed guidance link destination
 
 ## Open Questions
 
@@ -84,3 +91,4 @@ So that I can quickly access my account.
 - Should the preparation guidance be short summary text or a detailed checklist?
 - Is there a need for download, FAQ, or help links from this module?
 - Which CTA is primary in the visual hierarchy?
+- What exact estimated completion time should be displayed?

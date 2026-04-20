@@ -1,0 +1,14 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-01; AC-02,UAT-01; UAT-02,Draft,3 contact bắt buộc
+BR-02,BRD,US-02,AC-03,UAT-03,Draft,Payment term cố định
+BR-03,BRD,US-02,AC-04,UAT-04,Draft,Bank info
+BR-04,BRD,US-01; US-02,AC-05,UAT-05,Draft,Block request active khi thiếu contact hoặc bank info
+FR-01,Derived from BR-01,US-01,AC-01; AC-02,UAT-01; UAT-02,Draft,Contact details
+FR-02,Derived from RULE-01,US-01,AC-01; AC-02,UAT-01; UAT-02,Draft,3 role bắt buộc
+FR-03,Derived from UX notes,US-01,AC-02,UAT-02,Draft,Ghi chú vai trò
+FR-04,Derived from BR-02,US-02,AC-03,UAT-03,Draft,Payment term
+FR-05,Derived from BR-03,US-02,AC-04,UAT-04,Draft,Bank info
+FR-06,Derived from BR-04,US-01; US-02,AC-05,UAT-05,Draft,Step completion
+RULE-01,BRD,US-01,AC-01; AC-02,UAT-01; UAT-02,Draft,RSVN Sales Kế toán
+RULE-02,BRD,US-02,AC-03,UAT-03,Draft,2 payment term cố định
+RULE-03,BRD,US-01; US-02,AC-05,UAT-05,Draft,Block request active

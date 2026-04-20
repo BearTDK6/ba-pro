@@ -1,0 +1,14 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-01; AC-05,UAT-01; UAT-05,Draft,Tạo room tối thiểu
+BR-02,BRD,US-01,AC-01; AC-02; AC-03,UAT-01; UAT-02; UAT-03,Draft,Dữ liệu room chuẩn
+BR-03,BRD,US-02,AC-04,UAT-04,Draft,Clone room
+FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Room info
+FR-02,Derived from BR-02,US-01,AC-03,UAT-03,Draft,Room image
+FR-03,Derived from BR-02,US-01,AC-01,UAT-01,Draft,View và amenities
+FR-04,Derived from BR-02,US-01,AC-01,UAT-01,Draft,USP room
+FR-05,Derived from BR-03,US-02,AC-04,UAT-04,Draft,Clone room
+FR-06,Derived from RULE-01,US-01,AC-02,UAT-02,Draft,Capacity validation
+FR-07,Derived from RULE-02,US-01,AC-05,UAT-05,Draft,Request active condition
+RULE-01,BRD,US-01,AC-02,UAT-02,Draft,Max capacity >= standard capacity
+RULE-02,BRD,US-01,AC-05,UAT-05,Draft,At least one valid room
+RULE-03,BRD,US-02,AC-04,UAT-04,Draft,Clone room nên có

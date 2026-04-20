@@ -1,0 +1,14 @@
+Requirement ID,Source,Related Story or Use Case,Acceptance Criteria Ref,Test Scenario Ref,Status,Notes
+BR-01,BRD,US-01,AC-01; AC-05,UAT-01; UAT-05,Draft,Header summary và status
+BR-02,BRD,US-01,AC-02; AC-03,UAT-02; UAT-03,Draft,Resume flow
+BR-03,BRD,US-02,AC-04,UAT-04,Draft,Notification center
+BR-04,BRD,US-01,AC-01; AC-05,UAT-01; UAT-05,Draft,Progress percent và step status
+FR-01,Derived from BR-01,US-01,AC-01,UAT-01,Draft,Header summary
+FR-02,Derived from BR-02,US-01,AC-02,UAT-02,Draft,Checklist thiếu
+FR-03,Derived from BR-02,US-01,AC-03,UAT-03,Draft,CTA điều hướng
+FR-04,Derived from BR-03,US-02,AC-04,UAT-04,Draft,Notification center
+FR-05,Derived from RULE-02,US-01,AC-01,UAT-01,Draft,Resume card sau login
+FR-06,Derived from status model,US-01,AC-05,UAT-05,Draft,Onboarding statuses
+RULE-01,BRD,US-01,AC-01; AC-02,UAT-01; UAT-02,Draft,Progress và step status
+RULE-02,BRD,US-01,AC-01,UAT-01,Draft,Resume info khi login lại
+RULE-03,BRD,US-02,AC-04,UAT-04,Draft,Notification center
