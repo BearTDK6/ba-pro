@@ -1,0 +1,4 @@
+interface:
+  display_name: "BA Pro"
+  short_description: "Business analysis workflow and artifacts"
+  default_prompt: "Use $ba-pro to structure this request, produce the right BA artifacts in Vietnamese, and keep traceability clear."

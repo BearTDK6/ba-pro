@@ -1,0 +1,37 @@
+{"id":"019be13c-2167-7d71-adfa-d8b167591a09","thread_name":"Add Detailed Surcharge List","updated_at":"2026-03-10T14:32:43.15585Z"}
+{"id":"019be611-9d40-7832-8303-e920c0f67ffa","thread_name":"ReMigrateRateCalendar1769091363448 Sync","updated_at":"2026-03-10T14:32:43.156925Z"}
+{"id":"019bee6f-659b-73d1-85a1-a1e83135a91f","thread_name":"Tạo script bash tạo thư mục extensi…","updated_at":"2026-03-10T14:32:43.206604Z"}
+{"id":"019bfa15-3610-79f0-91f6-038a6468236c","thread_name":"Gộp hai hàm tùy chọn phòng","updated_at":"2026-03-10T14:32:43.207865Z"}
+{"id":"019c4859-b085-7311-bd13-7889b1e1dee3","thread_name":"Fix missing field in build","updated_at":"2026-03-10T14:32:43.242891Z"}
+{"id":"019cd866-0442-7bd1-8ffc-b3fdf4b6a64f","thread_name":"Explain ECONNRESET TLS error","updated_at":"2026-03-10T15:38:20.183678Z"}
+{"id":"019c33ee-bb32-7b00-a01f-6627fb5d1e58","thread_name":"Thêm API gọi absolute overlaps","updated_at":"2026-03-29T04:44:24.504333Z"}
+{"id":"019c36c8-b59d-79e2-b6e5-65f678f81df1","thread_name":"Review notification payload data","updated_at":"2026-03-29T04:44:24.529137Z"}
+{"id":"019c36de-67f6-7123-8d3d-86d12fd79847","thread_name":"Document hotel data for BH0000291","updated_at":"2026-03-29T04:44:24.576314Z"}
+{"id":"019c4260-cbca-7832-91a0-980b4fe75783","thread_name":"Add booking status subject strings","updated_at":"2026-03-29T04:44:24.601798Z"}
+{"id":"019c4340-9695-7083-8b85-159d70da96f6","thread_name":"Update price-setting API body","updated_at":"2026-03-29T04:44:24.627774Z"}
+{"id":"019c434f-41e9-7f82-9406-b6c1c4e2d3c9","thread_name":"Add client controller calls","updated_at":"2026-03-29T04:44:24.654114Z"}
+{"id":"019c436b-333f-7be0-b1f1-058686394972","thread_name":"Add bookingRooms.customers relation","updated_at":"2026-03-29T04:44:24.679798Z"}
+{"id":"019c5244-dff6-7f30-b9f9-f1f472db3960","thread_name":"Kiểm tra retry hai job fail","updated_at":"2026-03-29T04:44:24.705338Z"}
+{"id":"019c57c1-03aa-7b40-a5fe-1277680bc04b","thread_name":"Review new GameFi project","updated_at":"2026-03-29T04:44:24.730933Z"}
+{"id":"019c57e4-c0a3-7e53-9f92-b0b89b2fbb72","thread_name":"Thêm hàm grant play GameService","updated_at":"2026-03-29T04:44:24.755908Z"}
+{"id":"019c9f66-4b1f-7363-8523-465a2db04a14","thread_name":"Update macOS setup script config","updated_at":"2026-03-29T04:44:24.782213Z"}
+{"id":"019cb96d-b8f0-7691-9256-77662d08874f","thread_name":"Thêm auto next video FB YouTube","updated_at":"2026-03-29T04:44:24.80799Z"}
+{"id":"019cb96e-8aa6-7691-a206-f67ce5d77786","thread_name":"Thêm extension auto next video FB YT","updated_at":"2026-03-29T04:44:24.834175Z"}
+{"id":"019cd79e-2ab4-7422-9ab2-bf197df1eea8","thread_name":"Thêm đường dẫn /bao-gia","updated_at":"2026-03-29T04:44:24.860078Z"}
+{"id":"019d018b-ec51-77a3-b4e7-96c4f775bca3","thread_name":"Review cloned Vercel project","updated_at":"2026-03-29T04:44:24.885996Z"}
+{"id":"019d1b03-1206-7d80-9021-9a72ea88b995","thread_name":"Update MFAMiddleware for employee m","updated_at":"2026-03-29T04:44:24.91209Z"}
+{"id":"019d37e9-1264-7f22-a30c-61a7396760c3","thread_name":"Kiểm tra lại kết nối Postgres Redis","updated_at":"2026-03-29T04:45:49.188159Z"}
+{"id":"019be65b-1d89-77d0-8feb-712a8b5ae816","thread_name":"Giảm thời gian build dev","updated_at":"2026-04-02T11:51:23.279997Z"}
+{"id":"019d636f-7aee-7c43-8b5f-e2e79c8bd1f4","thread_name":"Tìm nguyên nhân lỗi TypeScript","updated_at":"2026-04-06T15:36:11.745997Z"}
+{"id":"019d6398-6135-76e1-984e-2e519fe9f98a","thread_name":"Thêm luồng book hotel","updated_at":"2026-04-06T16:22:01.333188Z"}
+{"id":"019d7321-08b9-7972-a543-73a8d01f6822","thread_name":"Build react remote image","updated_at":"2026-04-09T16:44:05.616653Z"}
+{"id":"019d7522-0c25-7753-988a-ecb75536b66a","thread_name":"Thêm kiểm tra commit","updated_at":"2026-04-10T02:06:13.926846Z"}
+{"id":"019d90f2-6449-72f0-9038-7c0accc559d3","thread_name":"Nhân bản hotel agent API","updated_at":"2026-04-15T11:43:18.899285Z"}
+{"id":"019d9103-23e7-7290-82b1-e38ce9ba99f5","thread_name":"Thêm hotel swagger docs","updated_at":"2026-04-15T12:00:58.51776Z"}
+{"id":"019d9112-c945-7662-9ef8-db1a31900466","thread_name":"Thêm hotel swagger docs","updated_at":"2026-04-15T12:17:24.90839Z"}
+{"id":"019d9755-9745-77f1-9b76-660d38cd2d3f","thread_name":"Kiểm tra API bank account JWT","updated_at":"2026-04-16T17:27:58.771109Z"}
+{"id":"019d975f-01e2-71f3-b46d-2f7328d1f785","thread_name":"Thêm màn bank account","updated_at":"2026-04-16T17:38:42.971624Z"}
+{"id":"019d97a0-4529-7880-b650-dd3274e2fd6d","thread_name":"Sửa sync bank account","updated_at":"2026-04-16T18:50:52.256726Z"}
+{"id":"019d97f8-3dc1-7390-9198-cf0439c8483a","thread_name":"Update màn login kiểu macOS 26","updated_at":"2026-04-16T20:25:43.454381Z"}
+{"id":"019daba4-eb01-78b1-a424-6f7a85f0c604","thread_name":"Xây dựng BA Workspace VSCode","updated_at":"2026-04-20T16:06:59.46049Z"}
+{"id":"019dabcd-e789-7580-92b5-f72c5140c80d","thread_name":"Thêm landing giới thiệu lợi ích","updated_at":"2026-04-20T16:51:50.000102Z"}

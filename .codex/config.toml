@@ -1,0 +1,21 @@
+personality = "pragmatic"
+model = "gpt-5.4"
+model_reasoning_effort = "high"
+
+[projects."/Users/kane/Workspace/airdata/airdata-documentation"]
+trust_level = "trusted"
+
+[projects."/Users/kane/Workspace/airdata/2-airdata-connect-pro/acp-orchestrator-service"]
+trust_level = "trusted"
+
+[projects."/Users/kane/Workspace/airdata/3-payment-gateway/pgw-api"]
+trust_level = "trusted"
+
+[projects."/Users/kane/Workspace/airdata/3-payment-gateway/pgw-portal"]
+trust_level = "trusted"
+
+[projects."/Users/kane/Workspace/airdata/ba-pro"]
+trust_level = "trusted"
+
+[projects."/Users/kane/Workspace/k2n/ba-pro"]
+trust_level = "trusted"
